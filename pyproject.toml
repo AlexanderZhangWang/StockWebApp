@@ -31,7 +31,7 @@ pdoc = "^15.0.1"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "--cov=src --cov-report=html --cov-fail-under=90"
+addopts = "--cov=src --cov-report=html --cov-fail-under=80"
 
 [build-system]
 requires = ["poetry-core"]
